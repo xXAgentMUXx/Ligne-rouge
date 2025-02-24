@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Interface Sauvegarde
+Comment=Ouvre l'interface de sauvegarde
+Exec=sh -c 'x-terminal-emulator -e "sudo /usr/bin/python3 /home/vboxuser/interface_sauvegarde_tk.py"'
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;
