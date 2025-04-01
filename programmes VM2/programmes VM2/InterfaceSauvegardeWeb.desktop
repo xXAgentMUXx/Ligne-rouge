@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Interface Sauvegarde Web
-Comment=Ouvre l'interface de sauvegarde web avec le serveur Flask
-Exec=sh -c 'python3 /home/vboxuser/interface_web_sauvegarde.py & sleep 3; xdg-open http://192.168.56.102:5000'
-Icon=utilities-terminal
-Terminal=false
-Categories=Utility;
