@@ -37,5 +37,12 @@ Pour assurer la communication entre les VMs :
 
 ## 🔑 Configuration SSH sans ou avec mot de passe
 
-1. Depuis chaque VM, vous allez devoir génerer une clé SSH, pour cela rendez vous dans le compte rendu du projet sauvegarde à la page
+1. Depuis chaque VM, générer une clé SSH :
+   ```bash
+   ssh-keygen -t rsa
+
+2. Puis, copier la clé publique sur les autres VMs :
+ssh-copy-id vboxuser@192.168.56.101
+ssh-copy-id vboxuser@192.168.56.102
+ssh-copy-id vboxuser@192.168.56.103
    
