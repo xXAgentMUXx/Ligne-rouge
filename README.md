@@ -1,1 +1,41 @@
 # Ligne-rouge
+
+# 🔐 Système de Sauvegarde et Restauration Multi-VM
+
+Ce projet met en place un système de sauvegarde/restauration réparti entre trois machines virtuelles (VM1, VM2, VM3) utilisant des scripts Bash.  
+Les sauvegardes sont réparties de manière redondante pour garantir la restauration même en cas de panne d'une machine.
+
+## 🧰 Prérequis
+
+- [Oracle VirtualBox](https://www.virtualbox.org/) soit être installé
+- Fichiers `.ova` des VMs (VM1.ova, VM2.ova, VM3.ova)
+- Accès SSH configuré entre les VMs (clé publique/privée sans ou avec mot de passe)
+- Connexion réseau en **réseau privé hôte** pour permettre les échanges
+
+## 📦 Importation des VMs `.ova`
+
+1. Ouvrir **Oracle VirtualBox**
+2. Aller dans `Fichier > Importer un appareil virtuel`
+3. Importer successivement les fichiers :
+   - `VM1.ova`
+   - `VM2.ova`
+   - `VM3.ova`
+4. Démarrer chaque VM et vérifier leur bon fonctionnement
+
+## 🌐 Configuration réseau
+
+Pour assurer la communication entre les VMs :
+1. Accédez à `Paramètres > Réseau` de chaque VM
+2. Assurez-vous que l’adaptateur réseau est configuré sur :
+   - Mode : **Réseau privé hôte**
+3. Attribuez manuellement les adresses IP suivantes dans chaque VM :
+   - VM1 : `192.168.56.101`
+   - VM2 : `192.168.56.102`
+   - VM3 : `192.168.56.103`
+
+---
+
+## 🔑 Configuration SSH sans ou avec mot de passe
+
+1. Depuis chaque VM, vous allez devoir génerer une clé SSH, pour cela rendez vous dans le compte rendu du projet sauvegarde à la page
+   
