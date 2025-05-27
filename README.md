@@ -35,7 +35,9 @@ Pour assurer la communication entre les VMs :
 
 ---
 
-## 🔑 Configuration SSH sans ou avec mot de passe
+## 🔑 Configuration SSH sans ou avec mot de passe (optionnel)
+
+Si les clés SSH ne sont pas configurées, alors réaliser les étapes suivantes :
 
 1. Depuis chaque VM, générer une clé SSH :
    ```bash
