@@ -16,10 +16,8 @@ Les sauvegardes sont réparties de manière redondante pour garantir la restaura
 
 1. Ouvrir **Oracle VirtualBox**
 2. Aller dans `Fichier > Importer un appareil virtuel`
-3. Importer successivement les fichiers :
-   - `VM1.ova`
-   - `VM2.ova`
-   - `VM3.ova`
+3. Importer successivement le fichier :
+   - `Appareil virtuel (appliance).ova`
 4. Démarrer chaque VM et vérifier leur bon fonctionnement
 
 ## 🌐 Configuration réseau
