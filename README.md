@@ -8,7 +8,7 @@ Les sauvegardes sont réparties de manière redondante pour garantir la restaura
 ## 🧰 Prérequis
 
 - [Oracle VirtualBox](https://www.virtualbox.org/) soit être installé
-- Fichiers `.ova` des VMs (VM1.ova, VM2.ova, VM3.ova)
+- Fichier `.ova` des VMs (Appareil virtuel (appliance).ova)
 - Accès SSH configuré entre les VMs (clé publique/privée sans ou avec mot de passe)
 - Connexion réseau en **réseau privé hôte** pour permettre les échanges
 
