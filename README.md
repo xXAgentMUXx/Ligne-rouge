@@ -45,4 +45,8 @@ Si les clés SSH ne sont pas configurées, alors réaliser les étapes suivantes
 ssh-copy-id vboxuser@192.168.56.101
 ssh-copy-id vboxuser@192.168.56.102
 ssh-copy-id vboxuser@192.168.56.103
+
+
+
    
+Maintenant que tout est prêt, vous n'avez plus qu'à double-cliquer sur l'application "Sauvegarde" qui se trouve sur le bureau de votre VM.
